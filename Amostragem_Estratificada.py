@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 
 # AMOSTRAGEM ESTRATIFICADA COM ATRIBUTOS BALANCEADOS
 
-dataset = pd.read_csv("iris.csv")
+dataset = pd.read_csv("./DADOS/iris.csv")
 mostra = dataset.head()
 print(mostra)
 

@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-dataset = pd.read_csv('./trees.csv')
+dataset = pd.read_csv('./DADOS/trees.csv')
 
 shape = dataset.shape
 

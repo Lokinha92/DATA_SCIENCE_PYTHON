@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_csv("insect.csv")
+dataset = pd.read_csv("./DADOS/insect.csv")
 
 mostra = dataset.head()
 print(mostra)

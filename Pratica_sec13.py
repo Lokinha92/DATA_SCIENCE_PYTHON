@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_csv('dados.csv', delimiter=';')
+dataset = pd.read_csv('./DADOS/dados.csv', delimiter=';')
 mostra = dataset.head()
 shape = dataset.shape
 

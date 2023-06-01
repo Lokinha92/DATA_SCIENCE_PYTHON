@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 
 
-dataset = pd.read_csv('./trees.csv')
+dataset = pd.read_csv('./DADOS/trees.csv')
 
 shape = dataset.shape
 

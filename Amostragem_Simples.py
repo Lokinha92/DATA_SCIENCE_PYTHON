@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-dataset = pd.read_csv("iris.csv")
+dataset = pd.read_csv("./DADOS/iris.csv")
 
 mostra = dataset.head()
 

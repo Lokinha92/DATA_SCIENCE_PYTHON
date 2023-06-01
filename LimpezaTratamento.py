@@ -3,7 +3,7 @@ import pandas as pd
 import statistics  as sts
 
 #importando dados
-dataset = pd.read_csv('./Churn.csv', sep=";")
+dataset = pd.read_csv('./DADOS/Churn.csv', sep=";")
 
 #visualizando
 #print(dataset.head())

@@ -3,7 +3,7 @@ import numpy as np
 from math import ceil
 
 # Importando a BD
-dataset = pd.read_csv("iris.csv")
+dataset = pd.read_csv("./DADOS/iris.csv")
 
 #verificando o tamanho da população
 print(dataset.shape)

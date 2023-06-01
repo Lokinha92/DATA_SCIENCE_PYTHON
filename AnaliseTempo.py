@@ -1,7 +1,7 @@
 import statistics as sts
 import pandas as pd
 
-dataset = pd.read_csv('./tempo.csv', sep=';')
+dataset = pd.read_csv('./DADOS/tempo.csv', sep=';')
 show = dataset.head()
 
 print(show, "\n\n")

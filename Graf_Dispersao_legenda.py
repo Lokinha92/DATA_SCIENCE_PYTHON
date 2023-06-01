@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset = pd.read_csv('co2.csv')
+dataset = pd.read_csv('./DADOS/co2.csv')
 
 mostra = dataset.head()
 
